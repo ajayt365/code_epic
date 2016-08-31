@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*----------- Top Header Begin--------------*/
+
+#div1{
+	height: 85px;
+	width: 80px;
+	background: white;
+	position: fixed;
+	border-radius: 0px 0px 8px 8px;
+	margin-left: 5px;
+	z-index: 2;
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+    border-top: none;
+}
+
+
+
+#logo1{
+	height: 35px;
+	width: 180px;
+	margin-left: 100px;
+	margin-top: 10px;
+
+}
+#logo2{
+	height: 80px;
+	width: 80px;
+	margin-top: 5px;
+	
+}
+
+#top-header{
+	background: #fff;
+	
+	height: 50px;
+	width: 100%;
+	line-height: 2.3;
+	display: inline-block;
+	border-bottom:2px solid black;
+	position: fixed;
+	z-index: 2
+	
+}
+
+#top-header ul{
+	float: right;
+	position: relative;
+	line-height: 2.3;
+	margin-right: 100px;
+}
+
+#top-header ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+#top-header ul li a{
+	padding: 22px;
+	text-decoration: none;
+	color: black;
+	display:block;
+	line-height: 0.4;
+
+}
+
+#top-header ul li a:hover{
+	
+	height: 10px;
+	color: #3cbdfe;
+	
+	margin-right: 2px;
+	margin-left: 2px;
+	transition:all 0.40s;
+}
+
+
+
+/*----------------Top Header Ends----------------------*/
+
+
+
+#navbar{
+	background: black;
+	opacity: 0.7;
+	height: 50px;
+	width: 100%;
+	line-height: 2.3;
+	display: inline-block;
+	margin-top: 60px;
+	z-index: -1;
+
+}
+
+#navbar ul{
+	float: right;
+	position: relative;
+	line-height: 2.3;
+	margin-right: 500px;
+}
+
+#navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+#navbar ul li a{
+	padding: 22px;
+	text-decoration: none;
+	color: white;
+	display:block;
+	line-height: 0.4;
+
+}
+
+#navbar ul li a:hover{
+	
+	height: 10px;
+	color: #2E4053;
+	
+	margin-right: 2px;
+	margin-left: 2px;
+	transition:all 0.40s;
+}
+
+#navbar ul li:hover ul{
+	display: block;
+}
+
+#navbar ul ul{
+	display: none;
+	width: 180px;
+	position: absolute;
+
+}
+
+#navbar ul li li{
+	background: black;
+	display: block;
+}
+
+#navbar ul li li a{
+	padding: 18px;
+}
+
+
+#navbar ul li li:hover{
+	background: #2E4053;
+	transition:all 0.40s;
+}
+
